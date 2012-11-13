@@ -1,0 +1,4 @@
+# Exclude the Ext JS folder as it is up to the implementation to determine the
+# GPL or commercial version.
+[Ee]xt-4.1.1-commercial/
+[Ee]xt-4.1.1-gpl/
