@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+~~~~LANGUAGE~~~~
+<div class="language-data-table">
+<table>
+    <thead>
+		<th>{[this.applyTranslation("heading.charset")]}</th>
+		<th>{[this.applyTranslation("heading.name")]}</th>
+		<th>{[this.applyTranslation("heading.code")]}</th>
+	</thead>
+    <tbody>
+    <tpl for=".">
+        <tr class="language">
+			<td>{language}</td>
+            <td>{charset}</td>
+			<td>{code}</td>
+        </tr>
+    </tpl>
+    </tbody>
+</table>
+</div>
+~~~~FOOBAR~~~~
+<span>FOOBAR</span>
+~~~~END~~~~
+<!--
+http://docs.sencha.com/ext-js/4-1/#!/api/Ext.XTemplate
+<tpl if="xindex % Math.ceil(xcount/3) == 0">
+    </div>BREAK<div>
+</tpl>
+-->
+
+</body>
+</html>
